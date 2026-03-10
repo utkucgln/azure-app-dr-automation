@@ -46,7 +46,7 @@ A disaster recovery (DR) automation toolkit for Azure services. It provides Powe
 
 ## Disclaimer
 
-The guidance, scripts, and configuration examples provided for setting up Azure DevOps self‑hosted agents are shared strictly as proof‑of‑concept (POC) and for testing or evaluation purposes only. Microsoft makes no representations or warranties regarding the accuracy, reliability, security, performance, or suitability of this content for production use. Customers are solely responsible for:
+The guidance, scripts, and configuration examples provided in this repository are shared strictly as proof‑of‑concept (POC) and for testing or evaluation purposes only. No representations or warranties are made regarding the accuracy, reliability, security, performance, or suitability of this content for production use. Users are solely responsible for:
 
 - Reviewing and customizing the configuration to meet their specific requirements
 - Applying appropriate security hardening, access controls, and compliance policies
