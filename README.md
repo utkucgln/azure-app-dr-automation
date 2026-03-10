@@ -46,11 +46,15 @@ A disaster recovery (DR) automation toolkit for Azure services. It provides Powe
 
 ## Disclaimer
 
-The guidance, scripts, and configuration examples provided in this repository are shared strictly as proof‑of‑concept (POC) and for testing or evaluation purposes only. No representations or warranties are made regarding the accuracy, reliability, security, performance, or suitability of this content for production use. Users are solely responsible for:
+The guidance, scripts, and configuration examples provided in this repository are offered strictly as proof‑of‑concept (POC) materials and are intended for testing, evaluation, and demonstration purposes only.
 
-- Reviewing and customizing the configuration to meet their specific requirements
-- Applying appropriate security hardening, access controls, and compliance policies
-- Validating and testing the setup in lower environments (development / staging)
-- Following their organization's approved deployment and operational practices before using these scripts in production
+This content is provided "as is", without any representations or warranties of any kind, express or implied, including but not limited to accuracy, reliability, security, performance, or suitability for production use.
 
-**Use of this content in a production environment without proper validation and approval is at the user's own risk.**
+Users are solely responsible for:
+
+- Reviewing, validating, and adapting the scripts and configurations to meet their specific technical, security, and compliance requirements
+- Implementing appropriate security hardening, access controls, and governance policies
+- Thoroughly testing the solution in non‑production environments (e.g., development and staging)
+- Ensuring alignment with their organization's approved deployment, operational, and change‑management practices
+
+**Use of this content in a production environment without proper validation, testing, and organizational approval is undertaken entirely at the user's own risk.**
