@@ -51,6 +51,6 @@ The guidance, scripts, and configuration examples provided in this repository ar
 - Reviewing and customizing the configuration to meet their specific requirements
 - Applying appropriate security hardening, access controls, and compliance policies
 - Validating and testing the setup in lower environments (development / staging)
-- Following their organization's approved deployment and operational practices before using self‑hosted agents in production
+- Following their organization's approved deployment and operational practices before using these scripts in production
 
-**Use of this content in a production environment without proper validation and approval is at the customer's own risk.**
+**Use of this content in a production environment without proper validation and approval is at the user's own risk.**
