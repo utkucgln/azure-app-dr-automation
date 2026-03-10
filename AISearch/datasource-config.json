@@ -1,0 +1,3 @@
+{
+  "blob-datasource": "DefaultEndpointsProtocol=https;AccountName=<YOUR_STORAGE_ACCOUNT>;AccountKey=<YOUR_ACCESS_KEY>;EndpointSuffix=core.windows.net"
+}
