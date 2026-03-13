@@ -10,6 +10,7 @@ A disaster recovery (DR) automation toolkit for Azure services. It provides Powe
 |--------|-------------|
 | [**AISearch**](AISearch/) | Backs up Azure AI Search components (indexes, documents, data sources, skillsets, indexers, synonym maps) to blob storage via the REST API. Restores them on a target search service, remapping data source connection strings using a configurable mapping file. |
 | [**APIM**](APIM/) | Extracts all API Management artifacts using the [ApiOps](https://github.com/Azure/apiops) extractor tool and uploads them to blob storage. A companion script restores them to a target APIM instance. |
+| [**AutomationAccounts**](AutomationAccounts/) | Backs up Azure Automation Account components (runbooks, schedules, variables, modules, Python packages, job schedules, credentials/certificates/connections metadata) to blob storage via ARM REST API. Restores them to a target Automation Account using Az PowerShell. |
 | [**FunctionApps**](FunctionApps/) | Full-subscription DR backup and restore of Azure Function Apps — exports code ZIPs, configuration, ARM templates, keys, and RBAC. Also includes single-app backup/restore utilities. |
 | [**LogicApps**](LogicApps/) | Backs up all Logic Apps (Consumption and Standard) in a subscription — workflow definitions, parameters, API connections, managed identity config, run history, and integration account references. Restores via ARM REST API. |
 | [**WebApps**](WebApps/) | Single-app backup and restore of Azure Web Apps — site content (VFS / Kudu ZIP), app settings, connection strings, site config, and deployment slots. |
@@ -34,12 +35,13 @@ A disaster recovery (DR) automation toolkit for Azure services. It provides Powe
 ## Repository Structure
 
 ```
-├── AISearch/          # AI Search backup & restore
-├── APIM/              # API Management backup & restore
-├── FunctionApps/      # Function Apps backup & restore
-├── LogicApps/         # Logic Apps backup & restore
-├── WebApps/           # Web Apps backup & restore
-└── docs/              # Additional documentation
+├── AISearch/              # AI Search backup & restore
+├── APIM/                  # API Management backup & restore
+├── AutomationAccounts/    # Automation Accounts backup & restore
+├── FunctionApps/          # Function Apps backup & restore
+├── LogicApps/             # Logic Apps backup & restore
+├── WebApps/               # Web Apps backup & restore
+└── docs/                  # Additional documentation
 ```
 
 ---
